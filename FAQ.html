@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pharmacy</title>
+    <link rel="icon" href="https://cdn-icons-png.flaticon.com/128/169/169837.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <link rel="stylesheet" type="text/css" href="FAQ.css">
+</head>
+<body>
+    <header>
+    <nav>
+        <div class="navbar-container">
+            <h3>Pharmacy Administration</h3>
+            <ul class="navbar-right">
+                <li><a href="home.html">Home</a></li>
+                <li><a href="#About">About</a></li>
+                <li><a href="#Services">Services</a></li>
+                <li><a href="Features.html">Features</a></li>
+                <li><a href="#Contact Us">Contact Us</a></li>
+                <li><a href="FAQ.html">FAQ</a></li>
+            </ul>
+        </div>
+    </nav>
+    </header>
+
+     <main>
+        <center>
+        <h1>Frequently Asked Questions</h1> <br>
+        <div class="wrapper" onclick="toggleVisibility(this)">
+            Can we view our profit and loss?<br>
+            <div class="wrapper-block">
+                Certainly, you can review your profit and loss statement to assess your financial performance. <br> It summarizes your revenue, expenses, and net profit (or loss) over a specific period.
+            </div>
+        </div>
+        <div class="wrapper" onclick="toggleVisibility(this)">
+            Is there GST displayed in an invoice?
+            <div class="wrapper-block">
+                Yes, GST (Goods and Services Tax) is typically displayed on an invoice, itemizing the tax amount charged for goods or services provided.
+            </div>
+        </div>
+        <div class="wrapper" onclick="toggleVisibility(this)">
+            Is there a money-back guarantee?
+            <div class="wrapper-block">
+                Yes, we offer a money-back guarantee. Please refer to our terms and conditions for more details.
+            </div>
+        </div>
+        <div class="wrapper" onclick="toggleVisibility(this)">
+            Is there a common discount option?
+            <div class="wrapper-block">
+                Yes, we provide common discount options, tailored to suit various customer needs and purchase volumes. Contact our sales team for more information.
+            </div>
+        </div>
+        <div class="wrapper" onclick="toggleVisibility(this)">
+            Can i access it from anywhere?
+            <div class="wrapper-block">
+                Yes, our platform is accessible from anywhere with an internet connection, ensuring flexibility and convenience for users worldwide.
+            </div>
+        </div>
+        <div class="wrapper" onclick="toggleVisibility(this)">
+            How securely does my data get saved?
+            <div class="wrapper-block">
+                Your data is securely saved using encryption protocols and rigorous access controls, ensuring confidentiality and integrity at all times.
+            </div>
+        </div>
+        <div class="wrapper" onclick="toggleVisibility(this)">
+            What are the minimum hardware requirement?
+            <div class="wrapper-block">
+                The minimum hardware requirements include a modern processor, sufficient RAM, and disk space as specified in our documentation, ensuring optimal performance and usability.
+            </div>
+        </div>
+        <div class="wrapper" onclick="toggleVisibility(this)">
+            What is the maintenance charge?
+            <div class="wrapper-block">
+                The maintenance charge varies based on the service level agreement and the scope of support required. Please consult our pricing plans or contact our sales team for specific details.
+            </div>
+        </div>
+        <div class="wrapper" onclick="toggleVisibility(this)">
+            Can i get training on how to use the system during the trial?
+            <div class="wrapper-block">
+                Yes, training on how to use the system is available during the trial period to help you maximize its capabilities and functionalities. Contact our support team to schedule training sessions tailored to your needs.
+            </div>
+        </div>
+        <div class="wrapper" onclick="toggleVisibility(this)">
+            How do i get support?
+            <div class="wrapper-block">
+                You can reach our dedicated support team via email, phone, or live chat for prompt assistance with any inquiries or issues you encounter while using our system.
+            </div>
+        </div>
+        </center>
+
+        <script>
+            function toggleVisibility(clickedWrapper) {
+                var block = clickedWrapper.querySelector('.wrapper-block');
+                if (block.style.display === "none" || block.style.display === "") {
+                    block.style.display = "block";
+            } else {
+                    block.style.display = "none";
+            }
+        }
+        </script>
+     </main>
+
+
+    <footer>
+        <table class="footer-table">
+         <thead>
+             <th>Pharmacy<br>Administration</th>
+             <th>Nig Soft</th>
+             <th>Address</th>
+             <th>Contact Us</th>
+             <th>E-mail</th>
+         </thead>
+         <tbody>
+             <tr>
+                 <td rowspan="3" class="footer-icons">
+                     <a href="https://twitter.com/?lang=en"><i class="fa-brands fa-square-twitter fa-2x"></a></i>
+                     <a href="https://www.facebook.com/"><i class="fa-brands fa-square-facebook fa-2x"></a></i>
+                     <a href="https://www.linkedin.com/feed/"><i class="fa-brands fa-linkedin fa-2x"></a></i>
+                     <a href="https://www.instagram.com/"><i class="fa-brands fa-square-instagram fa-2x"></a></i>
+                     <a href="https://www.whatsapp.com/"><i class="fa-brands fa-square-whatsapp fa-2x"></a></i>
+                 </td>
+                 <td>Features</td>
+                 <td rowspan="3">No: 133/31 A,SedhuKrishna<br>Trade Center, 3rd floor,<br>Trichy Main Road,Gugai<br>Salem town,Thathakapatty,<br>Salem.</td>
+                 <td><i class="fa-solid fa-phone"></i> Support-6369276848</td>
+                 <td>Support@nigsoft.com</td>
+             </tr>
+
+             <tr>
+                <td>About</td>
+                <td><i class="fa-solid fa-phone"></i> Sales-7339630007</td>
+                <td>sales@nigsoft.com</td>
+             </tr>
+
+             <tr>
+                 <td>Contact Us</td>
+             </tr>
+         </tbody>
+        </table>
+     </footer>
+</body>
+</html>
