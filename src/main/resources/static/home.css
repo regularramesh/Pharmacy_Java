@@ -1,0 +1,143 @@
+header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+  }
+  body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+  }
+  nav {
+      background-color: rgb(0, 212, 214);
+      color: black;
+      padding: 10px 15px;
+  }
+  nav .navbar-container {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+
+  }
+  nav h1 {
+      margin: 0;
+      font-size: 24px;
+  }
+  nav ul {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      display: flex;
+  }
+  nav .navbar-right {
+      justify-content: flex-end;
+  }
+  nav ul li {
+      margin-left: 20px;
+
+  }
+  nav ul li a {
+      text-decoration: none;
+      color: black;
+      font-weight: 700;
+      padding: 10px;
+      margin: 0;
+
+  }
+    nav ul li a:hover {
+      background-color: black;
+      color: white;
+  }
+
+
+  footer {
+    background-color:rgb(0, 212, 214);
+    color: black;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    text-align: left;
+    flex-shrink: 0;
+}
+
+.footer-table {
+    width: 100%;
+    border-collapse: collapse;
+    border: 0;
+}
+
+.footer-table th, .footer-table td {
+    padding: none;
+    border: none;
+}
+
+.footer-icons {
+    font-size: 20px;
+}
+
+.footer-icons i {
+    margin-right: 10px;
+    color: black;
+}
+
+main{
+  padding-top: 100px;
+  padding-bottom: 190px;
+}
+
+.container{
+    display: flex;
+    justify-content: space-around;
+    padding: 50px;
+}
+.main-content img{
+    height: 450px;
+}
+#username,#password{
+   width: 700px;
+   height: 40px;
+   background-color: rgb(173, 229, 233);
+   border-top: 0;
+   border-left: 0;
+   border-right: 0;
+   border-color: blue;
+   font-size: 20px;
+   font-family: Arial, Helvetica, sans-serif;
+}
+.login-form img{
+    height: 35px;
+}
+.forgot-password{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10px;
+}
+.forgot-password a {
+    font-size: 20px;
+    text-decoration: none;
+}
+.login-form a{
+    color: blue;
+    text-decoration: none;
+    font-size: 20px;
+}
+.forgot-password img {
+    height: 20px;
+}
+a:link {
+    color: blue;
+}
+a:visited {
+    color: black;
+}
+
+a:hover {
+    color: rgb(0, 212, 214);;
+    cursor: pointer;
+}
+a:active{
+    color: red;
+}
